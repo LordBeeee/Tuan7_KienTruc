@@ -1,0 +1,6 @@
+services:
+  redis:
+    image: redis:latest
+    container_name: redis_limited
+    mem_limit: 100m
+    cpus: 0.5
